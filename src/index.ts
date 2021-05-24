@@ -16,3 +16,5 @@ export function discard(name: string): boolean {
 export function clear(): void {
     models.clear();
 }
+
+export const keyspaces = require('./keyspaces');
