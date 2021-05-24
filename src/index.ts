@@ -1,6 +1,6 @@
 const models = new Map<string, any>();
 
-function get(name: string): any {
+export function get(name: string): any {
     if (!models.has(name)) {
         delete require.cache[require.resolve('express-cassandra')];
         const newModel = require('express-cassandra');
@@ -9,16 +9,12 @@ function get(name: string): any {
     return models.get(name);
 }
 
-function discard(name: string): boolean {
+export function discard(name: string): boolean {
     return models.delete(name);
 }
 
-function clear(): void {
+export function clear(): void {
     models.clear();
 }
 
-const keyspaces = require('./keyspaces');
-
-module.exports = {
-    get, discard, clear, keyspaces
-}
+export const keyspaces = require('./keyspaces');
