@@ -1,0 +1,34 @@
+{
+  "name": "express-express-cassandra",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean:build": "rimraf dist",
+    "pre:build": "npm install && npm run clean:build",
+    "compile": "tsc -p ./",
+    "build": "npm run pre:build && npm run compile",
+    "build:bak": "npm run pre:build && npm run compile && npm run lint",
+    "test": "npm run test:lint && nyc mocha",
+    "lint": "tslint -p tsconfig.json \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0v3rst33r/express-cassandra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0v3rst33r/express-cassandra/issues"
+  },
+  "homepage": "https://github.com/0v3rst33r/express-cassandra#readme",
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
