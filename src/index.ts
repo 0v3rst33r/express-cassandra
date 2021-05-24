@@ -1,16 +1,18 @@
-// tslint:disable
-export const keyspaces = require('express-cassandra');
-delete require.cache[require.resolve('express-cassandra')];
-export const cassandra = require('express-cassandra');
+const models = new Map<string, any>();
 
-export function saveAsync(model: any): Promise<any> {
-    const f = model.saveAsync({ consistency: keyspaces.consistencies.localQuorum }); // TODO
-    console.log('saveAsync', f);
-    return f;
+export function get(name: string): any {
+    if (!models.has(name)) {
+        delete require.cache[require.resolve('express-cassandra')];
+        const newModel = require('express-cassandra');
+        models.set(name, newModel);
+    }
+    return models.get(name);
 }
 
-export function batchSaveAsync(models: Array<any>): Promise<Array<any>> {
-    const b = Promise.all(models.map((model) => saveAsync(model)));
-    console.log('batchSaveAsync', b);
-    return b;
+export function discard(name: string): boolean {
+    return models.delete(name);
+}
+
+export function clear(): void {
+    models.clear();
 }
