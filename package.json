@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/cassandra-driver": "3.6.0",
     "@types/node": "^15.6.0",
+    "prettier": "^2.3.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.2.4"
   },
