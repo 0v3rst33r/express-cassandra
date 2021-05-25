@@ -1,6 +1,6 @@
 {
   "name": "express-express-cassandra",
-  "version": "0.2.0",
+  "version": "0.5.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,9 +12,9 @@
     "pre:build": "npm install && npm run clean:build",
     "compile": "tsc -p ./",
     "build": "npm run pre:build && npm run compile",
-    "build:bak": "npm run pre:build && npm run compile && npm run lint",
     "test": "npm run test:lint && nyc mocha",
-    "lint": "tslint -p tsconfig.json \"src/**/*.ts\""
+    "lint": "tslint -p tsconfig.json \"src/**/*.ts\"",
+    "changelog": "auto-changelog --template changelog-template.hbs -p -u --commit-limit false -o CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/cassandra-driver": "3.6.0",
     "@types/node": "^15.6.0",
+    "changelog-auto": "^2.2.3",
     "prettier": "^2.3.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.2.4"
