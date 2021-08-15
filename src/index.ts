@@ -1,3 +1,5 @@
+import { saveAsync, batchSaveAsync } from './keyspaces';
+
 const models = new Map<string, any>();
 
 export function get(name: string): any {
@@ -17,4 +19,4 @@ export function clear(): void {
     models.clear();
 }
 
-export const keyspaces = require('./keyspaces');
+export const keyspaces = { saveAsync, batchSaveAsync };
