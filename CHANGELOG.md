@@ -7,7 +7,9 @@
 ### Documentation
 
 * docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`ca2aa4f`](https://github.com/0v3rst33r/express-cassandra/commit/ca2aa4ff45452e409b8942317b8d532d747b6aba))
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`cefbdea`](https://github.com/0v3rst33r/express-cassandra/commit/cefbdeaa5fbeeba240d0dc063b8cad6bbb17e49d))
 * docs(readme) Updated the `README` doc. (0v3rst33r) ([`f261d60`](https://github.com/0v3rst33r/express-cassandra/commit/f261d603d855a1f5eff75f28ecdf5d53ae34563e))
+* docs(readme) Updated the `README` doc. (0v3rst33r) ([`7ba5629`](https://github.com/0v3rst33r/express-cassandra/commit/7ba56296e00ed329d109e4eb4a55765d23ef4c56))
 
 ### Chore
 
