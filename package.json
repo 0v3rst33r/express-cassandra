@@ -1,6 +1,6 @@
 {
-  "name": "express-express-cassandra",
-  "version": "0.6.0",
+  "name": "@inrange/express-express-cassandra",
+  "version": "0.7.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,8 +8,9 @@
     "dist"
   ],
   "scripts": {
-    "clean:build": "rimraf dist",
-    "pre:build": "npm install && npm run clean:build",
+    "clean:deep": "npm run clean:build && rimraf package-lock.json && rm -rf node_modules",
+    "clean:build": "npm i && rimraf dist",
+    "pre:build": "npm i && npm run clean:build",
     "compile": "tsc -p ./",
     "build": "npm run pre:build && npm run compile",
     "test": "npm run test:lint && nyc mocha",
@@ -28,14 +29,14 @@
   "homepage": "https://github.com/0v3rst33r/express-cassandra#readme",
   "devDependencies": {
     "@types/cassandra-driver": "3.6.0",
-    "@types/node": "^15.6.0",
-    "changelog-auto": "^2.2.3",
-    "prettier": "^2.3.0",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.2.4"
+    "@types/node": "16.6.1",
+    "@inrange/auto-changelog": "2.4.0",
+    "prettier": "2.3.2",
+    "rimraf": "3.0.2",
+    "typescript": "4.3.5"
   },
   "dependencies": {
-    "cassandra-driver": "^3.6.0",
-    "express-cassandra": "2.5.0"
+    "cassandra-driver": "3.6.0",
+    "express-cassandra": "2.6.0"
   }
 }

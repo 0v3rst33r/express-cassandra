@@ -1,8 +1,34 @@
+# 0.7.0 (2021-08-15)
+
+### Refactor
+
+* refactor(npm-scripts): Refactored `npm scripts`. (0v3rst33r) ([`1aeed15`](https://github.com/0v3rst33r/express-cassandra/commit/1aeed150b2b7b42ca2377fb5dafbfabdee722cf6))
+
+### Documentation
+
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`ca2aa4f`](https://github.com/0v3rst33r/express-cassandra/commit/ca2aa4ff45452e409b8942317b8d532d747b6aba))
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`cefbdea`](https://github.com/0v3rst33r/express-cassandra/commit/cefbdeaa5fbeeba240d0dc063b8cad6bbb17e49d))
+* docs(readme) Updated the `README` doc. (0v3rst33r) ([`f261d60`](https://github.com/0v3rst33r/express-cassandra/commit/f261d603d855a1f5eff75f28ecdf5d53ae34563e))
+* docs(readme) Updated the `README` doc. (0v3rst33r) ([`7ba5629`](https://github.com/0v3rst33r/express-cassandra/commit/7ba56296e00ed329d109e4eb4a55765d23ef4c56))
+
+### Chore
+
+* chore(inrange-org): Changed name of project to be published under organisation name instead. (0v3rst33r) ([`bae43a6`](https://github.com/0v3rst33r/express-cassandra/commit/bae43a6d063d260f858e564f3803526c3b34defa))
+* chore(contrib): Removed the `CONTRIBUTIN` file again. (0v3rst33r) ([`24544ce`](https://github.com/0v3rst33r/express-cassandra/commit/24544ce096e51d377b1a0557db931628492936b2))
+
 # 0.6.0 (2021-08-15)
 
 ### Features
 
 * feat(aws-keyspaces-proto):  Introduced types on keyspaces object (Nicholas Robinson) ([`1cf0b21`](https://github.com/0v3rst33r/express-cassandra/commit/1cf0b214f2f73f83c35469d085454c18cb176333))
+
+### Chore
+
+* chore(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`34cc84d`](https://github.com/0v3rst33r/express-cassandra/commit/34cc84dae1973288c8724a0aa383df2734890db1))
+
+### Misc (pre semantic commit messages)
+
+* Merge pull request #3 from 0v3rst33r/feature/keyspaces-types (0v3rst33r) ([`849312f`](https://github.com/0v3rst33r/express-cassandra/commit/849312fa2ab7539d6e6147d2bf4d84eaa30c97bf))
 
 # 0.5.1 (2021-05-25)
 
