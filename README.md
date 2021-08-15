@@ -51,7 +51,6 @@ Contributions are what make the open source community such an amazing place to b
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/0v3rst33r/express-cassandra/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/0v3rst33r/express-cassandra/CONTRIBUTING.md) before posting your first idea as well.
 
 ## License
 
