@@ -1,3 +1,13 @@
+# 0.8.0 (2021-08-15)
+
+### Documentation
+
+* docs(readme) Updated doc to be better suited for descriptions in other tools. (0v3rst33r) ([`1f38d46`](https://github.com/0v3rst33r/express-cassandra/commit/1f38d465e1459b17258518062548284ea70c7365))
+
+### Chore
+
+* chore(version) Bumped version. (0v3rst33r) ([`6a51555`](https://github.com/0v3rst33r/express-cassandra/commit/6a51555d227969d7d03b716782e42c880b14b323))
+
 # 0.7.0 (2021-08-15)
 
 ### Refactor
@@ -9,12 +19,17 @@
 * docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`ca2aa4f`](https://github.com/0v3rst33r/express-cassandra/commit/ca2aa4ff45452e409b8942317b8d532d747b6aba))
 * docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`cefbdea`](https://github.com/0v3rst33r/express-cassandra/commit/cefbdeaa5fbeeba240d0dc063b8cad6bbb17e49d))
 * docs(readme) Updated the `README` doc. (0v3rst33r) ([`f261d60`](https://github.com/0v3rst33r/express-cassandra/commit/f261d603d855a1f5eff75f28ecdf5d53ae34563e))
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`dd6f756`](https://github.com/0v3rst33r/express-cassandra/commit/dd6f756b3c62d389056a80a34ff3fa9913fdf475))
 * docs(readme) Updated the `README` doc. (0v3rst33r) ([`7ba5629`](https://github.com/0v3rst33r/express-cassandra/commit/7ba56296e00ed329d109e4eb4a55765d23ef4c56))
 
 ### Chore
 
 * chore(inrange-org): Changed name of project to be published under organisation name instead. (0v3rst33r) ([`bae43a6`](https://github.com/0v3rst33r/express-cassandra/commit/bae43a6d063d260f858e564f3803526c3b34defa))
 * chore(contrib): Removed the `CONTRIBUTIN` file again. (0v3rst33r) ([`24544ce`](https://github.com/0v3rst33r/express-cassandra/commit/24544ce096e51d377b1a0557db931628492936b2))
+
+### Misc (pre semantic commit messages)
+
+* Merge pull request #4 from 0v3rst33r/feature/inrange-organisation (0v3rst33r) ([`ad0e6f8`](https://github.com/0v3rst33r/express-cassandra/commit/ad0e6f8952d720c2ac49b774bb2040d668edac6c))
 
 # 0.6.0 (2021-08-15)
 
