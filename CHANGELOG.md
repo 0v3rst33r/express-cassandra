@@ -4,10 +4,15 @@
 
 * refactor(npm-scripts): Refactored `npm scripts`. (0v3rst33r) ([`1aeed15`](https://github.com/0v3rst33r/express-cassandra/commit/1aeed150b2b7b42ca2377fb5dafbfabdee722cf6))
 
+### Documentation
+
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`ca2aa4f`](https://github.com/0v3rst33r/express-cassandra/commit/ca2aa4ff45452e409b8942317b8d532d747b6aba))
+* docs(readme) Updated the `README` doc. (0v3rst33r) ([`f261d60`](https://github.com/0v3rst33r/express-cassandra/commit/f261d603d855a1f5eff75f28ecdf5d53ae34563e))
+
 ### Chore
 
-* chore(contrib): Removed the `CONTRIBUTIN` file again. (0v3rst33r) ([`24544ce`](https://github.com/0v3rst33r/express-cassandra/commit/24544ce096e51d377b1a0557db931628492936b2))
 * chore(inrange-org): Changed name of project to be published under organisation name instead. (0v3rst33r) ([`bae43a6`](https://github.com/0v3rst33r/express-cassandra/commit/bae43a6d063d260f858e564f3803526c3b34defa))
+* chore(contrib): Removed the `CONTRIBUTIN` file again. (0v3rst33r) ([`24544ce`](https://github.com/0v3rst33r/express-cassandra/commit/24544ce096e51d377b1a0557db931628492936b2))
 
 # 0.6.0 (2021-08-15)
 
