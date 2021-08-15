@@ -1,15 +1,6 @@
-<p align="center">
-<h3 align="center">express-express-cassandra</h3>
+# express-express-cassandra
 
-  <p align="center">
-    A wrapper for using <code>express-cassandra</code>, with <code>AWS Keyspaces</code> support
-    <br/>
-    <br/>
-    <a href="https://github.com/0v3rst33r/express-cassandra/issues">Report Bug</a>
-    .
-    <a href="https://github.com/0v3rst33r/express-cassandra/issues">Request Feature</a>
-  </p>
-</p>
+A wrapper for using `express-cassandra`, with `AWS Keyspaces` support.
 
 ![Downloads](https://img.shields.io/github/downloads/0v3rst33r/express-cassandra/total) ![Contributors](https://img.shields.io/github/contributors/0v3rst33r/express-cassandra?color=dark-green) ![Issues](https://img.shields.io/github/issues/0v3rst33r/express-cassandra) ![License](https://img.shields.io/github/license/0v3rst33r/express-cassandra)
 
