@@ -1,5 +1,5 @@
 <p align="center">
-<h3 align="center">ReadME Generator</h3>
+<h3 align="center">express-express-cassandra</h3>
 
   <p align="center">
     A wrapper for using <code>express-cassandra</code>, with <code>AWS Keyspaces</code> support
@@ -54,7 +54,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-See [LICENSE](https://github.com/0v3rst33r/express-cassandra/LICENSE) for more information.
+See [LICENSE](https://github.com/0v3rst33r/express-cassandra/blob/develop/LICENSE) for more information.
 
 ## Acknowledgements
 
