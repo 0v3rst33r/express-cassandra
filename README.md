@@ -39,7 +39,7 @@ npm run build
 
 You need to be an `@inrange` organisation team member in order to publish.
 
-Use the `--dryrun` flag if you first want to test/confirm what will be published.
+Use the `--dry-run` flag if you first want to test/confirm what will be published.
 
 ```sh
 npm publish --access public
