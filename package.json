@@ -8,8 +8,9 @@
     "dist"
   ],
   "scripts": {
-    "clean:build": "rimraf dist",
-    "pre:build": "npm install && npm run clean:build",
+    "clean:deep": "npm run clean:build && rimraf package-lock.json && rm -rf node_modules",
+    "clean:build": "npm i && rimraf dist",
+    "pre:build": "npm i && npm run clean:build",
     "compile": "tsc -p ./",
     "build": "npm run pre:build && npm run compile",
     "test": "npm run test:lint && nyc mocha",
