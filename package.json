@@ -1,6 +1,6 @@
 {
   "name": "@inrange/express-express-cassandra",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
     "url": "git+https://github.com/0v3rst33r/express-cassandra.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/0v3rst33r/express-cassandra/issues"
   },
@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "cassandra-driver": "3.6.0",
-    "express-cassandra": "2.6.0"
+    "express-cassandra": "2.5.0"
   }
 }
