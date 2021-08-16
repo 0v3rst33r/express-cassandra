@@ -1,12 +1,23 @@
+# 0.9.0 (2021-08-16)
+
+### Features
+
+* feat(express-cassandra-version): Rolled back the `express-cassandra` version in order to still use `cassandra-driver v3.x.y` under the hood. (0v3rst33r) ([`c6244eb`](https://github.com/0v3rst33r/express-cassandra/commit/c6244eb71381ec5bf5c22cdb12e012d6ffb0ed7d))
+
 # 0.8.0 (2021-08-15)
 
 ### Documentation
 
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`51009f1`](https://github.com/0v3rst33r/express-cassandra/commit/51009f103fb1d03b67101a47bc85b085fc5f7012))
 * docs(readme) Updated doc to be better suited for descriptions in other tools. (0v3rst33r) ([`1f38d46`](https://github.com/0v3rst33r/express-cassandra/commit/1f38d465e1459b17258518062548284ea70c7365))
 
 ### Chore
 
 * chore(version) Bumped version. (0v3rst33r) ([`6a51555`](https://github.com/0v3rst33r/express-cassandra/commit/6a51555d227969d7d03b716782e42c880b14b323))
+
+### Misc (pre semantic commit messages)
+
+* Merge pull request #5 from 0v3rst33r/feature/readme-update (0v3rst33r) ([`ca02bc6`](https://github.com/0v3rst33r/express-cassandra/commit/ca02bc6182134ba60de8ff2a307e940d005401bb))
 
 # 0.7.0 (2021-08-15)
 
