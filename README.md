@@ -2,13 +2,19 @@
 
 A wrapper for using `express-cassandra`, with `AWS Keyspaces` support.
 
-![Downloads](https://img.shields.io/github/downloads/0v3rst33r/express-cassandra/total) ![Contributors](https://img.shields.io/github/contributors/0v3rst33r/express-cassandra?color=dark-green) ![Issues](https://img.shields.io/github/issues/0v3rst33r/express-cassandra) ![License](https://img.shields.io/github/license/0v3rst33r/express-cassandra)
+[![0v3rst33r - express-cassandra](https://img.shields.io/static/v1?label=0v3rst33r&message=express-cassandra&color=blue&logo=github)](https://github.com/0v3rst33r/express-cassandra)
+[![stars - express-cassandra](https://img.shields.io/github/stars/0v3rst33r/express-cassandra?style=social)](https://github.com/0v3rst33r/express-cassandra)
+[![forks - express-cassandra](https://img.shields.io/github/forks/0v3rst33r/express-cassandra?style=social)](https://github.com/0v3rst33r/express-cassandra)
+
+[![GitHub tag](https://img.shields.io/github/tag/0v3rst33r/express-cassandra?include_prereleases=&sort=semver)](https://github.com/0v3rst33r/express-cassandra/releases/) ![Contributors](https://img.shields.io/github/contributors/0v3rst33r/express-cassandra?color=dark-green) ![Issues](https://img.shields.io/github/issues/0v3rst33r/express-cassandra) [![License](https://img.shields.io/github/license/0v3rst33r/express-cassandra)](#license)
+
 
 ## Table Of Contents
 
 * [Setup](#setup)
 * [Build](#build)
 * [Publish](#publish)
+* [Usage examples](#usage-examples)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -34,6 +40,35 @@ Use the `--dry-run` flag if you first want to test/confirm what will be publishe
 
 ```sh
 npm publish --access public
+```
+
+## Usage examples
+
+### Create instances
+
+To create 2 independent instances:
+
+```
+import modelzzz = require('@inrange/express-express-cassandra');
+
+export const keyspacesOrm = modelzzz.get('keyspaces');
+export const cassandraOrm = modelzzz.get('cassandra');
+```
+
+Under the hood this just makes 2 separate non-cached calls to:
+
+```
+require('express-cassandra')
+```
+
+### AWS Keyspaces
+
+Using the `AWS Keyspaces` compatible methods:
+
+```
+import { keyspaces } from '@inrange/express-express-cassandra';
+
+keyspaces.saveAsync(model).then(...)
 ```
 
 ## Contributing
