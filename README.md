@@ -14,6 +14,7 @@ A wrapper for using `express-cassandra`, with `AWS Keyspaces` support.
 * [Setup](#setup)
 * [Build](#build)
 * [Publish](#publish)
+* [Usage examples](#usage-examples)
 * [Contributing](#contributing)
 * [License](#license)
 
