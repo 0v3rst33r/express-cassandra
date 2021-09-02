@@ -41,6 +41,35 @@ Use the `--dry-run` flag if you first want to test/confirm what will be publishe
 npm publish --access public
 ```
 
+## Usage examples
+
+### Create instances
+
+To create 2 independent instances:
+
+```
+import modelzzz = require('@inrange/express-express-cassandra');
+
+export const keyspacesOrm = modelzzz.get('keyspaces');
+export const cassandraOrm = modelzzz.get('cassandra');
+```
+
+Under the hood this just makes 2 separate non-cached calls to:
+
+```
+require('express-cassandra')
+```
+
+### AWS Keyspaces
+
+Using the `AWS Keyspaces` compatible methods:
+
+```
+import { keyspaces } from '@inrange/express-express-cassandra';
+
+keyspaces.saveAsync(model).then(...)
+```
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
