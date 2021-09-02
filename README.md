@@ -2,7 +2,12 @@
 
 A wrapper for using `express-cassandra`, with `AWS Keyspaces` support.
 
-![Downloads](https://img.shields.io/github/downloads/0v3rst33r/express-cassandra/total) ![Contributors](https://img.shields.io/github/contributors/0v3rst33r/express-cassandra?color=dark-green) ![Issues](https://img.shields.io/github/issues/0v3rst33r/express-cassandra) ![License](https://img.shields.io/github/license/0v3rst33r/express-cassandra)
+[![0v3rst33r - express-cassandra](https://img.shields.io/static/v1?label=0v3rst33r&message=express-cassandra&color=blue&logo=github)](https://github.com/0v3rst33r/express-cassandra)
+[![stars - express-cassandra](https://img.shields.io/github/stars/0v3rst33r/express-cassandra?style=social)](https://github.com/0v3rst33r/express-cassandra)
+[![forks - express-cassandra](https://img.shields.io/github/forks/0v3rst33r/express-cassandra?style=social)](https://github.com/0v3rst33r/express-cassandra)
+
+[![GitHub tag](https://img.shields.io/github/tag/0v3rst33r/express-cassandra?include_prereleases=&sort=semver)](https://github.com/0v3rst33r/express-cassandra/releases/) ![Contributors](https://img.shields.io/github/contributors/0v3rst33r/express-cassandra?color=dark-green) ![Issues](https://img.shields.io/github/issues/0v3rst33r/express-cassandra) [![License](https://img.shields.io/github/license/0v3rst33r/express-cassandra)](#license)
+
 
 ## Table Of Contents
 
