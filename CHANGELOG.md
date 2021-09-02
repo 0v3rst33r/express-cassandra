@@ -1,8 +1,34 @@
+# 0.10.0 (2021-09-02)
+
+### Documentation
+
+* docs(project): Updated the main `README` file with a `Usage examples` section. (0v3rst33r) ([`bee4fbf`](https://github.com/0v3rst33r/express-cassandra/commit/bee4fbf778ee5fd42fa60d17c4f6661788026d7f))
+* docs(project): Updated the main `README` file. (0v3rst33r) ([`7f3f7e6`](https://github.com/0v3rst33r/express-cassandra/commit/7f3f7e68f91ccb43b6f33625164f4554c7363503))
+* docs(project): Updated the TOC of the main `README` file. (0v3rst33r) ([`3763268`](https://github.com/0v3rst33r/express-cassandra/commit/3763268c42bb2eb4f6c80c3aa7f9a4754ac03245))
+
+### Chore
+
+* chore(license): Updated the `LICENSE` file. (0v3rst33r) ([`36db5a2`](https://github.com/0v3rst33r/express-cassandra/commit/36db5a2ba957d7d31a7c228f0fce30ae77fe61d3))
+* chore(license): Updated the license in the `package.json` file as well. (0v3rst33r) ([`a20c215`](https://github.com/0v3rst33r/express-cassandra/commit/a20c215f0b86abe3aa40361c0f9cb447213f65ed))
+* chore(version): Bumped the version. (0v3rst33r) ([`c577e7a`](https://github.com/0v3rst33r/express-cassandra/commit/c577e7a13d0452692c3e8216786861d870c86afe))
+
+### Misc (pre semantic commit messages)
+
+* Merge pull request #7 from 0v3rst33r/feature/update-license (0v3rst33r) ([`061497f`](https://github.com/0v3rst33r/express-cassandra/commit/061497f87207f3a06cdc42b3d784ed514f9b344d))
+
 # 0.9.0 (2021-08-16)
 
 ### Features
 
 * feat(express-cassandra-version): Rolled back the `express-cassandra` version in order to still use `cassandra-driver v3.x.y` under the hood. (0v3rst33r) ([`c6244eb`](https://github.com/0v3rst33r/express-cassandra/commit/c6244eb71381ec5bf5c22cdb12e012d6ffb0ed7d))
+
+### Documentation
+
+* docs(changelog): Updated `CHANGELOG.md` doc. (0v3rst33r) ([`37e2879`](https://github.com/0v3rst33r/express-cassandra/commit/37e2879c3c8f28c2cd1a1617266e70e41dcbafbc))
+
+### Misc (pre semantic commit messages)
+
+* Merge pull request #6 from 0v3rst33r/feature/down-grade-express-cassandra (0v3rst33r) ([`5e3c755`](https://github.com/0v3rst33r/express-cassandra/commit/5e3c755484802ff45944af1d36abf148ca26c64a))
 
 # 0.8.0 (2021-08-15)
 
